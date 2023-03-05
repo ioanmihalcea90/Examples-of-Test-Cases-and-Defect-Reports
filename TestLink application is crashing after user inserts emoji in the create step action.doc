@@ -1,0 +1,5560 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira - Tester Course</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira-course.coderslab.com/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-158]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-158">Checkout process cannot be completed due to method of payment missing</a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196768-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-course.coderslab.com/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File" role="presentation">
+                    14. payment.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user tries to complete the checkout process by placing the order, he/she cannot do this due to the method of payment missing.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a> </li>
+	<li>Click on "Hummingbird Printed T-Shirt" product from Popular product section in the Home page.</li>
+	<li>Click on "Add to cart" button.</li>
+	<li>Click on "Proceed to checkout" button.</li>
+	<li>Click on "Proceed to checkout" button again.</li>
+	<li>Select "Mr" option as Social title status.</li>
+	<li>Insert data in "First name" field. (Test data: Ioan)</li>
+</ol>
+
+
+<ol>
+	<li>Insert data in "Last name" field. (Test data: Mihalcea)</li>
+</ol>
+
+
+<ol>
+	<li>Insert data in "Email" field. (Test data: ascse@yahoo.com)</li>
+</ol>
+
+
+<ol>
+	<li>Insert data in "Password" field. (Test data: 12345)</li>
+</ol>
+
+
+<ol>
+	<li>Insert date format data in "Birthdate" field. (Test data: 05/02/1970)</li>
+</ol>
+
+
+<ol>
+	<li>Click on "Continue" button.</li>
+	<li>Insert data in "Address" field. (Test data: Str. Primaverii)</li>
+</ol>
+
+
+<ol>
+	<li>Insert data in "City" field. (Test data: Birmingham)</li>
+</ol>
+
+
+<ol>
+	<li>Insert data in "Zip/Postal code" field. (Test data: 700222)</li>
+</ol>
+
+
+<ol>
+	<li>Click on "Country" drop-down list.</li>
+	<li>Select "United Kingdom" option from "Country" drop-down list.</li>
+	<li>Click on "Continue" button.</li>
+	<li>In the "Shipping method" page click on "Continue" button.</li>
+	<li>In the "Payment" page check the "I agree to the terms of service and will adhere to them unconditionally." check box</li>
+	<li>Click on "Place order" button.</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>The order is placed successfully and the checkout process is completed.</p>
+
+<p> </p>
+
+<p>Actual result:</p>
+
+<p>An error message informing about the impossibility of completing the process is displayed.</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: critical</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-157]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-157">Search bar displaying results when searching random strings of characters</a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196767-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-course.coderslab.com/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File" role="presentation">
+                    13. search.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user inserts random strings of characters in the search bar, he/she encounters the situation in which product results are displayed.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a> </li>
+	<li>Insert a random string of characters in the "Search our catalog" field and press ENTER. (test data: dfgsdhdf)</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>a message with "no results found" is displayed.</p>
+
+<p> </p>
+
+<p>Actual result:</p>
+
+<p>13 results of website products are shown.</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: medium</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-156]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-156">Sorting products by price is not showing any results</a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196766-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-course.coderslab.com/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File" role="presentation">
+                    12. sort by.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user sorts products by price (low to high or high to low), he/she encounters the situation in which no product is displayed.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-prod.visuality.pl/index.php?id_category=2&amp;controller=category" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php?id_category=2&amp;controller=category</a> </li>
+	<li>Click on "Sort by" drop-down list in the "All products" page.</li>
+	<li>Select "Price, low to high" option from the "Sort by" drop-down list.</li>
+	<li>Go back on the "All products" page.</li>
+	<li>Click on "Sort by" drop-down list in the "All products" page.</li>
+	<li>Select "Price, high to low" option from the "Sort by" drop-down list.</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>products are sorted by price low to high and high to low.</p>
+
+<p> </p>
+
+<p>Actual result:</p>
+
+<p>no products are displayed.</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: medium</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-155]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-155">Secure payment page displays irrelevant information</a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196765-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-course.coderslab.com/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File" role="presentation">
+                    11. secure payment.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user checks the Secure payment page, he/she sees no relevant information about methods of payment.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></li>
+	<li>Scroll down to the bottom of the page</li>
+	<li>Click on Secure payment hyperlink</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>relevant information about the different methods of payment is displayed.</p>
+
+<p> </p>
+
+<p>Actual result:</p>
+
+<p>very brief information with no impact for the user.</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: minor</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-154]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-154">About us page displays incorrect text</a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196764-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-course.coderslab.com/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File" role="presentation">
+                    10. about us.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user checks the About us page, he/she sees incorrect default Latin text instead of actual terms and conditions legal text.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></li>
+	<li>Scroll down to the bottom of the page</li>
+	<li>Click on About us hyperlink</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>actual information about the company is displayed.</p>
+
+<p> </p>
+
+<p>Actual result:</p>
+
+<p>incorrect default Latin text is displayed.</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: minor</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-153]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-153">Terms and conditions of use page displays incorrect text</a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196763-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-course.coderslab.com/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File" role="presentation">
+                    9. terms and conditions.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user checks the Terms and conditions of use page, he/she sees incorrect default Latin text instead of actual terms and conditions legal text.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></li>
+	<li>Scroll down to the bottom of the page</li>
+	<li>Click on Terms and conditions of use hyperlink</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>actual terms and conditions legal text is displayed.</p>
+
+<p> </p>
+
+<p>Actual result:</p>
+
+<p>incorrect default Latin text is displayed.</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: medium</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-152]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-152">Email address field validates non-email address format type in Subscribe section</a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196762-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-course.coderslab.com/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File" role="presentation">
+                    8. subscribe.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-15">
+                     ROTS20-15                 </a>
+            </td>
+            <td>
+                “Subject” selectable field in the “Co...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user inserts an invalid domain email address format in Subscribe down section on Home page the data is successfully accepted.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></li>
+	<li>Insert an invalid domain format email address in the “email address” field (test data: ertert546@ffgfn.ytyiit467568).</li>
+</ol>
+
+
+<ol>
+	<li>Click on “Subscribe” button.</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>an error message pops up warning about incorrect data being used.</p>
+
+<p> </p>
+
+<p>Actual result:</p>
+
+<p>Action is performed successfully.</p>
+
+<p>A confirmation message appears ("You have successfully subscribed to this newsletter.").</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: major</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-151]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-151">Discount banner redirects user to the top of the page when clicked</a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Lowest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196761-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user clicks on discount banner he/she is redirected to the top of the page instead of being redirected to an actual discount page.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></li>
+	<li>Scroll down on page until you get to the "20% OFF ON CLOTHES <del>SEE MORE</del>" discount banner.</li>
+	<li>Click on "20% OFF ON CLOTHES <del>SEE MORE</del>" discount banner.</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>the user is redirected on the discount page.</p>
+
+<p> </p>
+
+<p>Actual result:</p>
+
+<p>the user is redirected to the top of the page.</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: minor</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-150]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-150">The description text for Hummingbird Printed T-Shirt is incorrectly displayed</a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Lowest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196760-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-course.coderslab.com/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File" role="presentation">
+                    7. description text.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user checks the description text for Hummingbird Printed T-Shirt he/she sees that the text is not entirely visible.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-prod.visuality.pl/index.php?id_product=1&amp;id_product_attribute=1&amp;rewrite=hummingbird-printed-t-shirt&amp;controller=product#/1-size-s/8-color-white" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php?id_product=1&amp;id_product_attribute=1&amp;rewrite=hummingbird-printed-t-shirt&amp;controller=product#/1-size-s/8-color-white</a> </li>
+	<li>Check the description text for Hummingbird Printed T-Shirt</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>the text is all visible and correctly displayed.</p>
+
+<p> </p>
+
+<p>Actual result:</p>
+
+<p>first line of the text is not visible.</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: minor</p>
+
+<p> </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-140]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-140">Email address field in the “Create account” form accepts non-valid domain format email address</a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196759-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user inserts non-valid domain format email address such as: <span class="nobr"><a href="mailto:costica@yahoo.rom%C3%AEnia" class="external-link" target="_blank" rel="nofollow noopener">costica@yahoo.romînia<sup><img class="rendericon" src="https://jira-course.coderslab.com/images/icons/mail_small.gif" height="12" width="13" align="absmiddle" alt="" border="0"/></sup></a></span> the data is accepted successfully.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-prod.visuality.pl/index.php?controller=authentication&amp;create_account=1" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php?controller=authentication&amp;create_account=1</a> </li>
+	<li>Insert data in First name files as per business requirements.</li>
+	<li>Insert data in Last name files as per business requirements.</li>
+	<li>Insert an invalid domain format email address (ertert546@ffgfn.ytyiit<span class="nobr"><a href="mailto:costica@yahoo.rom%C3%AEnia" class="external-link" target="_blank" rel="nofollow noopener">costica@yahoo.rom%C3%AEnia<sup><img class="rendericon" src="https://jira-course.coderslab.com/images/icons/mail_small.gif" height="12" width="13" align="absmiddle" alt="" border="0"/></sup></a></span>) in the “email address” field</li>
+	<li>Insert a password in the password field as per business requirements.</li>
+	<li>Insert a birth date in Birthdate field as per business requirements.</li>
+	<li>Click on "Save" button.</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>Data is not accepted. An error message is displayed.</p>
+
+<p> </p>
+
+<p>Actual result:</p>
+
+<p>Data is accepted successfully.</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: major</p>
+
+<p> </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-139]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-139">Last Name field of Create an account page accepts non-breakable spaces</a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196758-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user inserts a non-breakable space in First Name field of the Create an account page, the data is accepted successfully.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-prod.visuality.pl/index.php?controller=authentication&amp;create_account=1" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php?controller=authentication&amp;create_account=1</a> </li>
+	<li>Select a social title as per business requirements.</li>
+	<li>Insert data in the “First name” field as per business requirements.</li>
+	<li>Insert the ALT+0160 combination (non-breakable space) in the “Last name” field (test data: "⍽asdf. rtetytr")</li>
+	<li>Insert an email address in the email address field as per business requirements.</li>
+	<li>Insert a password in the password field as per business requirements.</li>
+	<li>Insert a birth date in Birthdate field as per business requirements.</li>
+	<li>Click on "Save" button.</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>an error message pops up warning about incorrect data being used.</p>
+
+<p> </p>
+
+<p>Actual result:</p>
+
+<p>Action is performed successfully.</p>
+
+<p>Account is created successfully and user is logged in to account.</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: medium</p>
+
+<p> </p>
+
+<p> </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-138]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-138">First Name field of Create an account page accepts non-breakable spaces </a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196757-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user inserts a non-breakable space in First Name field of the Create an account page, the data is accepted successfully.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-prod.visuality.pl/index.php?controller=authentication&amp;create_account=1" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php?controller=authentication&amp;create_account=1</a> </li>
+	<li>Select a social title as per business requirements.</li>
+	<li>Insert the ALT+0160 combination (non-breakable space) in the “First name” field (test data: "⍽asdf. rtetytr")</li>
+	<li>Insert data in Last name files as per business requirements</li>
+	<li>Insert an email address in the email address field as per business requirements.</li>
+	<li>Insert a password in the password field as per business requirements.</li>
+	<li>Insert a birth date in Birthdate field as per business requirements.</li>
+	<li>Click on "Save" button.</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>an error message pops up warning about incorrect data being used.</p>
+
+<p>Actual result:</p>
+
+<p>Action is performed successfully.</p>
+
+<p>Account is created successfully and user is logged in to account.</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: medium</p>
+
+<p> </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-137]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-137">&quot;Choose file&quot; field from Contact form accepts peculiar files such as .mogrt files</a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196756-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-course.coderslab.com/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File" role="presentation">
+                    6. choose file.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user selects files such as .mogrt files the data is successfully accepted.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-prod.visuality.pl/index.php?controller=contact" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php?controller=contact</a> </li>
+	<li>Click on "Choose files" button in the attachment section of the Contact us form.</li>
+	<li>Select "<span class="error">&#91;Toko&#93;</span> Gradient_01.mogrt" file from local drive and click on Open.</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>Action is not performed successfully.</p>
+
+<p>An error message is displayed.</p>
+
+<p> </p>
+
+<p>Actual result:</p>
+
+<p>Action is performed successfully.</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: major</p>
+
+<p> </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-136]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-136">Email address field in the “Contact us” form accepts non-valid domain format email address</a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196752-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-course.coderslab.com/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File" role="presentation">
+                    5. contact us email.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user inserts non-valid domain format email address such as: <span class="nobr"><a href="mailto:costica@yahoo.rom%C3%AEnia" class="external-link" target="_blank" rel="nofollow noopener">costica@yahoo.romînia<sup><img class="rendericon" src="https://jira-course.coderslab.com/images/icons/mail_small.gif" height="12" width="13" align="absmiddle" alt="" border="0"/></sup></a></span> the data is accepted successfully.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-prod.visuality.pl/index.php?controller=contact" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php?controller=contact</a></li>
+	<li>Insert an invalid domain format email address (<span class="nobr"><a href="mailto:costica@yahoo.rom%C3%AEnia" class="external-link" target="_blank" rel="nofollow noopener">costica@yahoo.romînia<sup><img class="rendericon" src="https://jira-course.coderslab.com/images/icons/mail_small.gif" height="12" width="13" align="absmiddle" alt="" border="0"/></sup></a></span>) in the “email address” field</li>
+	<li>Validate email address by clicking on “Send” button.</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>Data is not accepted. An error message is displayed.</p>
+
+<p> </p>
+
+<p>Actual result:</p>
+
+<p>Data is accepted successfully.</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: major</p>
+
+<p> </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-135]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-135">Hyperlink missing for PrestaShop Poland in Store information section at the end of the Home page</a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196748-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-course.coderslab.com/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File" role="presentation">
+                    3. missing link PrestaShop Poland.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user tries to hover on PrestaShop Poland text in Store information section at the end of the Home page, the text is not highlighted as it isn't linked.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></li>
+	<li>Hover on PrestaShop Poland text in Store information section at the end of the Home page</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>the text appears as highlighted.</p>
+
+<p> </p>
+
+<p>Actual result:</p>
+
+<p>the text is not highlighted as it isn't linked.</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: minor</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-134]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-134">The text under the discount banner is incorrectly displayed</a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196746-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-course.coderslab.com/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File" role="presentation">
+                    2. text under cupon.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>The text under the discount banner is displayed in the default Latin sample text type and instead of the title the “Custom text block” appears.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></li>
+	<li>Check the text under the discount banner on the home page</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>actual real text is shown.</p>
+
+<p> </p>
+
+<p>Actual result:</p>
+
+<p>text is displayed in the default Latin sample text type and instead of the title the “Custom text block” appears..</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: minor</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-133]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-133">On the Presta Shop homepage the text inside the scrolling banner is incorrectly shown</a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196744-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p><a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-course.coderslab.com/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File" role="presentation">
+                    1. banner text.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user checks the text inside the scrolling banner on the home page, he/she sees “Sample1, Sample2, Sample3” instead of titles and the under text is displayed in the default Latin sample text type.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></li>
+	<li>Check the text inside the scrolling banner on the home page</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>actual real text is shown.</p>
+
+<p> </p>
+
+<p>Actual result:</p>
+
+<p>text is shown as “Sample1, Sample2, Sample3” instead of titles and the under text is displayed in the default Latin sample text type.</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: minor</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-109]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-109">MyStore_release_Mihalcea Ioan</a>
+            <span class="subText">
+               Created: 07/Feb/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-196572-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            EXAMEN,GRUPA_TS20                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-137">
+                     ROTS20-137                 </a>
+            </td>
+            <td>
+                &quot;Choose file&quot; field from Contact form...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-136">
+                     ROTS20-136                 </a>
+            </td>
+            <td>
+                Email address field in the “Contact u...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-15">
+                     ROTS20-15                 </a>
+            </td>
+            <td>
+                “Subject” selectable field in the “Co...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-138">
+                     ROTS20-138                 </a>
+            </td>
+            <td>
+                First Name field of Create an account...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-139">
+                     ROTS20-139                 </a>
+            </td>
+            <td>
+                Last Name field of Create an account ...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-140">
+                     ROTS20-140                 </a>
+            </td>
+            <td>
+                Email address field in the “Create ac...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-133">
+                     ROTS20-133                 </a>
+            </td>
+            <td>
+                On the Presta Shop homepage the text ...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-134">
+                     ROTS20-134                 </a>
+            </td>
+            <td>
+                The text under the discount banner is...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-135">
+                     ROTS20-135                 </a>
+            </td>
+            <td>
+                Hyperlink missing for PrestaShop Pola...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-150">
+                     ROTS20-150                 </a>
+            </td>
+            <td>
+                The description text for Hummingbird ...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-151">
+                     ROTS20-151                 </a>
+            </td>
+            <td>
+                Discount banner redirects user to the...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                                <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-137">
+                     ROTS20-137                 </a>
+            </td>
+            <td>
+                &quot;Choose file&quot; field from Contact form...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-152">
+                     ROTS20-152                 </a>
+            </td>
+            <td>
+                Email address field validates non-ema...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-158">
+                     ROTS20-158                 </a>
+            </td>
+            <td>
+                Checkout process cannot be completed ...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-136">
+                     ROTS20-136                 </a>
+            </td>
+            <td>
+                Email address field in the “Contact u...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-153">
+                     ROTS20-153                 </a>
+            </td>
+            <td>
+                Terms and conditions of use page disp...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-15">
+                     ROTS20-15                 </a>
+            </td>
+            <td>
+                “Subject” selectable field in the “Co...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-138">
+                     ROTS20-138                 </a>
+            </td>
+            <td>
+                First Name field of Create an account...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-139">
+                     ROTS20-139                 </a>
+            </td>
+            <td>
+                Last Name field of Create an account ...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-140">
+                     ROTS20-140                 </a>
+            </td>
+            <td>
+                Email address field in the “Create ac...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-155">
+                     ROTS20-155                 </a>
+            </td>
+            <td>
+                Secure payment page displays irreleva...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-157">
+                     ROTS20-157                 </a>
+            </td>
+            <td>
+                Search bar displaying results when se...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-133">
+                     ROTS20-133                 </a>
+            </td>
+            <td>
+                On the Presta Shop homepage the text ...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-134">
+                     ROTS20-134                 </a>
+            </td>
+            <td>
+                The text under the discount banner is...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-135">
+                     ROTS20-135                 </a>
+            </td>
+            <td>
+                Hyperlink missing for PrestaShop Pola...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-154">
+                     ROTS20-154                 </a>
+            </td>
+            <td>
+                About us page displays incorrect text
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-150">
+                     ROTS20-150                 </a>
+            </td>
+            <td>
+                The description text for Hummingbird ...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-151">
+                     ROTS20-151                 </a>
+            </td>
+            <td>
+                Discount banner redirects user to the...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>This task contains the list of the test cases executed before the final release of Presta Shop website.</p>
+
+<p>List of executed test cases:</p>
+<ol>
+	<li><span class="error">&#91;UI PRESTA&#93;</span> UI for Presta Shop Website (Verify font, text, size, colors, highlights, zoom-in, zoom-out, resize for Presta Shop website to be displayed as per business requirements.)</li>
+	<li><span class="error">&#91;HYPERLINK PRESTA&#93;</span> Hyperlinks for Presta Shop Home Page (Verify that the hyperlinks at the end of the page such as “Price drop”, “New products” and “Terms and conditions of use” are functional.)</li>
+	<li><span class="error">&#91;POSITIVE PRESTA&#93;</span> Contact Us Subject Field select item from drop down list (Verify that the user can select item from Subject drop-down list in the "Contact us" form as per business requirements.)</li>
+	<li><span class="error">&#91;NEGATIVE PRESTA&#93;</span> Email address field invalidates non-email address format type (Verify that email address field invalidates invalid domain email format.)</li>
+	<li><span class="error">&#91;NEGATIVE PRESTA&#93;</span> Choose file button accepted data (Verify that the "Choose file" button invalidates files such as .mogrt files.)</li>
+	<li><span class="error">&#91;NEGATIVE PRESTA&#93;</span> Non-breakable spaces are not allowed in First Name field of Create an account page (Verify that non-breakable spaces are not allowed in the First Name field of Create an account page as per business requirements.)</li>
+	<li><span class="error">&#91;NEGATIVE PRESTA&#93;</span> Non-breakable spaces are not allowed in Last Name field of Create an account page (Verify that non-breakable spaces are not allowed in the Last Name field of Create an account page as per business requirements.)</li>
+	<li><span class="error">&#91;NEGATIVE PRESTA&#93;</span> Email address field invalidates non-email address format type in Create account (Verify that email address field invalidates non-email address format type: invalid domain in Create account page.)</li>
+	<li><span class="error">&#91;UI PRESTA&#93;</span> UI for Product page on Presta Shop website (Verify font, images, text, size, colors, highlights for Product page on Presta Shop website to be displayed as per business requirements.)</li>
+	<li><span class="error">&#91;UX PRESTA&#93;</span> UX for Discount banner on Presta Shop website (Verify that functionality of the Discount banner is as per business requirements.)</li>
+	<li><span class="error">&#91;NEGATIVE PRESTA&#93;</span> Email address field invalidates non-email address format type in Subscribe section (Verify that email address field invalidates non-email address format type: invalid domain in Subscribe down section on Home page.)</li>
+	<li><span class="error">&#91;POSITIVE PRESTA&#93;</span> Sort products by price (Verify that the user can sort products by price (low to high and high to low) as per business requirements.)</li>
+	<li><span class="error">&#91;NEGATIVE PRESTA&#93;</span> Search bar not displaying results when searching random strings of characters (Verify that the search bar is not displaying results when searching for random strings of characters.)</li>
+	<li><span class="error">&#91;E2E PRESTA&#93;</span> Checkout end to end flow for placing order (Verify that the user can add a product to cart and complete the checkout process as per business requirements.)</li>
+</ol>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-15]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-15">“Subject” selectable field in the “Contact us” form is not displaying any list when user tries to select an option.</a>
+            <span class="subText">
+               Created: 17/Jan/23                   &nbsp;Updated: 07/Feb/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-193164-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-course.coderslab.com/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File" role="presentation">
+                    4. Subject bug.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-152">
+                     ROTS20-152                 </a>
+            </td>
+            <td>
+                Email address field validates non-ema...
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-course.coderslab.com/browse/ROTS20-109">
+                     ROTS20-109                 </a>
+            </td>
+            <td>
+                MyStore_release_Mihalcea Ioan
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user tries to choose an option from the "Subject" field in the “Contact us” form, he/she encounters the impossibility of choosing an option as the filed does not drop any list that contains options.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Access <a href="https://courses-presta-dev.visuality.pl/" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-dev.visuality.pl/</a> website</li>
+	<li>Click on "Contact us" button</li>
+	<li>Click on "Subject" field in the "Contact us" form</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>a drop-down list with different options appears.</p>
+
+<p> </p>
+
+<p>Actual results:</p>
+
+<p>the drop-down list doesn't display any options.</p>
+
+<p> </p>
+
+<p>Affected version: 2023 (final version before release)</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://courses-presta-prod.visuality.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://courses-presta-prod.visuality.pl/index.php</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: medium</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ROTS20-8]&nbsp;<a href="https://jira-course.coderslab.com/browse/ROTS20-8">TestLink application is crashing after user inserts emoji in the create step action</a>
+            <span class="subText">
+               Created: 14/Dec/22                   &nbsp;Updated: 14/Dec/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13104">RO_TS20</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Lowest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="s135988ts754@students.itedu.ro" id="word_reporter_s135988ts754@students.itedu.ro" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=s135988ts754%40students.itedu.ro">s135988ts754</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="mentor2" id="word_assignee_mentor2" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=mentor2"> mentor2</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-188845-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            TS20, TestLink                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-course.coderslab.com/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File" role="presentation">
+                    bug.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When user inserts an emoji in "Create step" section and saves the step, he encounters a crashing of the application which is related to database uncorrelation with front-end.</p>
+
+<p> </p>
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Log-in to TestLink application</li>
+	<li>Create a test case</li>
+	<li>Create a step</li>
+	<li>Insert emoji in "Create step" section</li>
+	<li> Save the step</li>
+</ol>
+
+
+<p> </p>
+
+<p>Expected results:</p>
+
+<p>test step is created successfully and emojies are displayed in the test step section.</p>
+
+<p> </p>
+
+<p>Actual results:</p>
+
+<p>application crashes.</p>
+
+<p> </p>
+
+<p>Affected version: TestLink 2.0</p>
+
+<p> </p>
+
+<p>Environment: <a href="https://testlink-kurs.coderslab.pl/" class="external-link" target="_blank" rel="nofollow noopener">https://testlink-kurs.coderslab.pl/</a></p>
+
+<p> </p>
+
+<p>Repro rate: 10/10</p>
+
+<p> </p>
+
+<p>Severity: critical</p>
+
+<p> </p>
+
+<p> </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Generated at Mon Feb 13 07:42:08 GMT 2023 by s135988ts754 using Jira 8.22.1#822001-sha1:d584a1e5af9752a5d8b59b41fdf410e866d38003.
+
+</body>
+</html>
